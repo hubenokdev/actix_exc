@@ -1,0 +1,16 @@
+[workspace]
+members = [
+  "getting_started",
+  "application",
+  "server",
+  "handlers",
+  "extractors",
+  "errors",
+  "url_dispatch",
+  "requests",
+  "responses",
+  "testing",
+  "middleware",
+  "static_files",
+  "websockets"
+]

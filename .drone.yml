@@ -1,0 +1,10 @@
+kind: pipeline
+name: default
+
+steps:
+- name: actix_rs
+  image: rust:1.41.1
+  commands:
+  - rustup component add clippy
+  - cargo clippy --workspace
+  - cargo test --workspace 
